@@ -24,7 +24,7 @@ void QRD_RLS(const float_type x_train[N_INPUT_NODES],const int t_train,const flo
 	float_type x_out[1+NUM_OF_IC] = {0.0};
 	float_type t_out[1+NUM_OF_IC] = {0.0};
 
-	// Will be release later...
+	// Will be released later...
 	
 
 }
