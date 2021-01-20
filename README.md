@@ -16,9 +16,9 @@
 This is a template github repository for hls projects with credits >3.
 
 **Directory structure**
-* **README.md** - introduce the project, algorithm, reference ....
+* **README.md** - Introduce the project, algorithm, reference ....
 * **main.cpp** - Testbench used in this project
-* **script.tcl** - script for run this project (Detail will be shown below)
+* **script.tcl** - Script for running this project (Detail will be shown below)
 * **MNIST_DATA/** - Normalized features and labels seperated into training and testing dataset
 * **Param/** - Pre-trained parameters of CNN and ELM in software
 
@@ -38,7 +38,7 @@ Zedboard(Xynp 7z020) is used in this project
 ## Usage
 * **Preparation**
 	* Step1: Download the dataset from this link: https://drive.google.com/file/d/1uuevUSQEew2KiXiNsO_NxAr4zXbopWC6/view?usp=sharing
-	* Step2: Upzip the Dataset.zip
+	* Step2: Upzip the "Dataset.zip"
 	* Step3: Copy the all files to the **MNIST_DATA/** file
 	
 * **Reproduce the HLS flow**
@@ -48,7 +48,7 @@ Zedboard(Xynp 7z020) is used in this project
 	```
 	
 * **Host Program**
-  * Step1: Copy all the files in **ipy_Host/** to the board
+  * Step1: Upload all the files in **ipy_Host/** to the board
   * Step2: Open the "proposed_model.ipynb" to run the program
 
 <!-- Algorithm -->
