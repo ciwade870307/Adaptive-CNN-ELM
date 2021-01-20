@@ -1,14 +1,5 @@
 # 2020 NTU MSoC Final Project - Trainable Lenet5-ELM
 
-<br />
-<p align="center">
-
-  <h3 align="center">MSOC-HLS project github template</h3>
-  
-</p>
-
-
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
@@ -26,15 +17,19 @@ This is a template github repository for hls projects with credits >3.
 
 **Directory structure**
 * **README.md** - introduce the project, algorithm, reference ....
-* **code/**
+* **main.cpp** - Testbench used in this project
+* **script.tcl** - script for run this project (Detail will be shown below)
+* **MNIST_DATA/** - Normalized features and labels seperated into training and testing dataset
+* **Param/** - Pre-trained parameters of CNN and ELM in software
+
+* **src/**
   * original - original code from open source if there is 
   * final (use inline pragma) - include both host and kernel code ※Note: host code must do auto-check
-* **code-opt/** - Note it may have multiple code directories for different code structure, named by code-opt  (opt refer to optimization method, e.g. code-OoO  Out-Of-Order)
-  * ...
-* **testdata/** - include input test data, and output result data
-* **script/** - makefile
-  * ... - Build process shall include a trial-run with result check. 
-* **impl/** - result of the implementation, only the metafile, and report, e.g. vitis summary file, HLS csynth report
+
+* **ipy_Host/** - System-level implementation
+  * The jupyter notebook code to control the system between host and IP
+  * The bitstream of the IP 
+  
       
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -57,11 +52,13 @@ source code from: https://github.com/changwoolee/lenet5_hls
 
 <!-- CONTRIBUTING -->
 ## Contributing
+* Chi-Wei Chen (National Taiwan University, Taipei, Taiwan)
+* Max (National Taiwan University, Taipei, Taiwan)
+* Lisheng (National Taiwan University, Taipei, Taiwan)
 
 <!-- CONTACT -->
 ## Contact
-* Chi-Wei Chen (National Taiwan University, Taipei, Taiwan)
-* r09943008@ntu.edu.tw
+* Chi-Wei Chen (National Taiwan University, Taipei, Taiwan) r09943008@ntu.edu.tw
 
 
 
