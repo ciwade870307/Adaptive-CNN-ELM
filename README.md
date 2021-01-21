@@ -4,7 +4,7 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-* [Dataset] (#Dataset)
+* [Dataset](#Dataset)
 * [Algorithm](#algorithm)
 * [Enviroments](#enviroments)
 * [Usage](#usage)
