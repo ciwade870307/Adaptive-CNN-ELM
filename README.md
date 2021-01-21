@@ -13,7 +13,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is a template github repository for hls projects with credits >3.
+「Sign language」is a major way that the hearing-impaired communicate with other. However, except for the hearing-impaired there are not many people have learned sign language in their lifetime. Hence, communications between both of them are difficult.
+Inspired by this situation, we want to devise a system on FPGA(ZedBoard) that can bridge the communication by a local device.
+The system on board can recognize the meaning of the user’s gesture. The user can “retrain” their gestures on board to make the system adapt for the user’s physical habit and let recognition of gestures be more accurate.
+Then the prediction of gestures can be downstream for other IPs to be converted to output signals (may be image, text, or sound) and convey the idea of the hearing- impaired user to others. But this part is not included in our project this time.
+
 
 **Directory structure**
 * **README.md** - Introduce the project, algorithm, reference ....
@@ -53,10 +57,11 @@ Zedboard(Xynp 7z020) is used in this project
 
 <!-- Algorithm -->
 ## Algorithm
+![Adaptive-CNN-ELM](https://drive.google.com/file/d/1iuVnfk5491AefWhYTfSllONgGz_eC9fx/view "Adaptive-CNN-ELM")
 
 <!-- References -->
 ## References
-source code from: https://github.com/changwoolee/lenet5_hls
+Source code from: https://github.com/changwoolee/lenet5_hls
 
 <!-- CONTRIBUTING -->
 ## Contributing
