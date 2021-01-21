@@ -4,7 +4,7 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-* [Dataset] (dataset)
+* [Dataset] (#dataset)
 * [Algorithm](#algorithm)
 * [Enviroments](#enviroments)
 * [Usage](#usage)
@@ -38,9 +38,11 @@ Then the prediction of gestures can be downstream for other IPs to be converted 
 
 <!-- Dataset -->
 ## Dataset
-Dataset "Sign Language MNIST" from Kaggle website
+Original dataset "Sign Language MNIST" from Kaggle website
 ![Dataset](/img/Dataset.png "Dataset")
 Link: https://www.kaggle.com/datamunge/sign-language-mnist
+
+In this project, we have processed the zero-padding on the image to the size of 32X32, and also normalized the scale into the range from -1 to 1.
 
 <!-- Algorithm -->
 ## Algorithm
