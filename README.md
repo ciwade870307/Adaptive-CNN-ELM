@@ -51,7 +51,7 @@ In this project, we have processed the zero-padding on the image to the size of 
 CNN-based feature extractor is used to extract the important info from 1024 features to 128 features.<br />
 Extreme learning machine (ELM) is a light-weight NN model, which has the property of fast training. Therefore, ELM is used for adaptation.
  
-Model Architecture
+Model Architecture <br />
 Input : -1.0 to 1.0  
 Conv1 : 1x32x32 -> 6x28x28, ksize = 1x6x5x5, stride = 1  
 Pool1 : 6x28x28 -> 6x14x14, Max pooling, window size = 2x2, stride = 2  
