@@ -48,7 +48,7 @@ In this project, we have processed the zero-padding on the image to the size of 
 ## Algorithm
 ![Adaptive-CNN-ELM](/img/Adaptive-CNN-ELM.png "Adaptive-CNN-ELM")
 
-CNN-based feature extractor is used to extract the important info from 1024 features to 128 features
+CNN-based feature extractor is used to extract the important info from 1024 features to 128 features.\n
 Extreme learning machine (ELM) is a light-weight NN model, which has the property of fast training. Therefore, ELM is used for adaptation.
  
 Model Architecture
