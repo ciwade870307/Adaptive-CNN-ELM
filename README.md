@@ -4,9 +4,10 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
+* [Dataset] (dataset)
+* [Algorithm](#algorithm)
 * [Enviroments](#enviroments)
 * [Usage](#usage)
-* [Algorithm](#algorithm)
 * [References](#references)
 * [Contributing](#contributing)
 * [Contact](#contact)
@@ -34,6 +35,16 @@ Then the prediction of gestures can be downstream for other IPs to be converted 
 * **ipy_Host/** - System-level implementation
   * The jupyter notebook code to control the system between host and IP
   * The bitstream of the IP 
+
+<!-- Dataset -->
+## Dataset
+Dataset "Sign Language MNIST" from Kaggle website
+![Dataset](/img/Dataset.png "Dataset")
+Link: https://www.kaggle.com/datamunge/sign-language-mnist
+
+<!-- Algorithm -->
+## Algorithm
+![Adaptive-CNN-ELM](/img/Adaptive-CNN-ELM.png "Adaptive-CNN-ELM")
   
 ## Enviroments
 Zedboard(Xynp 7z020) is used in this project
@@ -54,10 +65,6 @@ Zedboard(Xynp 7z020) is used in this project
 * **Host Program**
   * Step1: Upload all the files in **ipy_Host/** to the board
   * Step2: Open the "proposed_model.ipynb" to run the program
-
-<!-- Algorithm -->
-## Algorithm
-![Adaptive-CNN-ELM](/Adaptive-CNN-ELM.png "Adaptive-CNN-ELM")
 
 <!-- References -->
 ## References
