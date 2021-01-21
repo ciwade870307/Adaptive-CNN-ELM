@@ -57,7 +57,7 @@ Zedboard(Xynp 7z020) is used in this project
 
 <!-- Algorithm -->
 ## Algorithm
-![Adaptive-CNN-ELM](https://drive.google.com/file/d/1iuVnfk5491AefWhYTfSllONgGz_eC9fx/view "Adaptive-CNN-ELM")
+![Adaptive-CNN-ELM](/Adaptive-CNN-ELM.png "Adaptive-CNN-ELM")
 
 <!-- References -->
 ## References
