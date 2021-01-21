@@ -47,6 +47,18 @@ In this project, we have processed the zero-padding on the image to the size of 
 <!-- Algorithm -->
 ## Algorithm
 ![Adaptive-CNN-ELM](/img/Adaptive-CNN-ELM.png "Adaptive-CNN-ELM")
+
+CNN-based feature extractor is used to extract the important info from 1024 features to 128 features.
+Extreme learning machine (ELM) is a light-weight NN model, which has the property of fast training. Therefore, ELM is used for adaptation.
+ 
+Model Architecture
+Input : -1.0 to 1.0  
+Conv1 : 1x32x32 -> 6x28x28, ksize = 1x6x5x5, stride = 1  
+Pool1 : 6x28x28 -> 6x14x14, Max pooling, window size = 2x2, stride = 2  
+Conv2 : 6x14x14 -> 16x10x10, ksize = 6x16x5x5, stride = 1  
+Pool2 : 16x10x10 -> 16x5x5, Max pooling, window size = 2x2, stride = 2  
+Conv3 : 16x5x5 -> 128x1x1, ksize = 16x120x25, stride = 1  
+ELM   : 128 -> 26, Num of hidden nodes = 168   
  
 <!-- Enviroments -->
 ## Enviroments
