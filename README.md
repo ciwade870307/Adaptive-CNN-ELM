@@ -47,7 +47,8 @@ In this project, we have processed the zero-padding on the image to the size of 
 <!-- Algorithm -->
 ## Algorithm
 ![Adaptive-CNN-ELM](/img/Adaptive-CNN-ELM.png "Adaptive-CNN-ELM")
-  
+ 
+<!-- Enviroments -->
 ## Enviroments
 Zedboard(Xynp 7z020) is used in this project
       
